@@ -1,0 +1,76 @@
+@media(max-width: 1000px){
+	.mainHome{
+		display:flex;
+		flex-direction: row;
+		flex-wrap:wrap;
+		justify-items:center;
+		align-content:space-between;
+	}
+	header{
+		display:flex;
+		flex-direction:column; 
+		nav{
+			display:flex;
+			flex-direction:row;
+		}
+	}
+	.project{
+		width:500px;
+		height:250px;
+		padding:10px;
+		outline: 2px solid #353535;
+		outline-offset: 5px;
+		border: 1px dashed red;
+		margin:10px;
+		img{
+			width: 300px;
+			height:300px;
+		}
+		h2{
+			margin:10px;
+		}
+	}
+}
+
+.mainHome{
+	display:flex;
+	flex-direction: row;
+	justify-items:center;
+	align-content:space-between;
+}
+
+@keyframes homeHover{
+	from{padding-right: 100px;}
+	to{padding-right:150px;}
+}
+
+.homeBody{
+	display:flex;
+	flex-direction:column;
+}
+
+ul{
+	display:flex;
+	flex-direction:row;
+}
+
+.project{
+	width: 500px;
+	height:500px;
+	padding:10px;
+	margin:30px;
+	img{
+		width: 300px;
+		height:300px;
+	}
+	h2{
+		margin:10px;
+	}
+	outline: 2px solid #353535;
+	outline-offset: 5px;
+	border: 1px dashed black;
+}
+
+.main:hover{
+	color: #cc0c0c;
+}
