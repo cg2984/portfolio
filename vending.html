@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galle's Logo Project</title>
+	<link href="project.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Heebo:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Signika:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Signika:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
+	<link href="graphicdesign.scss">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<script>
+	var modal = document.getElementById("myModal");
+	var images = document.getElementsByClassName("myImg");
+	var modalImg = document.getElementById("img01")
+
+	for (var i = 0; i < images.length; i++) {
+		console.log("added")
+	  var img = images[i];
+	  // and attach our click listener for this image. the evt means that it is an event listener
+	  img.onclick = function(evt) {
+	    modal.style.display = "block";
+	    modalImg.src = this.src;
+	    console.log("clicked")
+	  }
+	}
+
+	var span = document.getElementsByClassName("close")[0];
+
+	span.onclick = function() {
+	  modal.style.display = "none";
+	}
+
+	modal.onclick = function(){
+	  modal.style.display = "none"
+	}
+</script>
+<body>
+	<div id="myModal" class="modal">
+      	<span class="close">&times;</span>
+      	<img class="modal-content" id="img01"> 
+  	</div>
+	<header class = "project_head">
+		<a id = "home" href="/portfolio">HOME</a>
+		<section id="statement">
+			<h1 id="statement_head">GALLE'S  LOGO <br> PROJECT</h1>
+				<div>
+					<h2 class="statement_dec">PROBLEM:</h2>
+					<p> Design a logo for a mini-golf company on Mars.</p>
+					<h2 class = "statement_dec"> SOLUTION:</h2>
+					<p>I wanted to make a logo that was fun and goofy, while incorporating visual lements of gold and of Mars. I chose the name Galle's because it is a crater on Mars that looks like a smiley face, so I thought it would be interesting to incorporate a smiley face.</p>
+				</div>
+		</section>
+	</header>
+	<main id = "process">
+		<section class = "process_part">
+			<h2 class="stage">Brainstorming and Sketching</h2>
+			<hr>
+			<p> In this stage I began to sketch my ideas on paper and in illustrator for the project.</p>	
+			<div class = "place">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+			</div>
+		</section>
+		<section class = "process_part">
+			<h2 class ="stage">Refining Sketches</h2>
+			<hr>
+			<p>Since I had a lot of sketches, it was time to start refining them. I made my selections based on the feedback that I got from my classmates, and my professor.</p>
+			<div class = "place">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+			</div>
+		</section>
+		<section class="process_part">
+			<h2 class="stage">Final Iteration</h2>
+			<hr>
+			<p>I narrowed my selection down to one type of logo and began iterating on the small details in tat logo. I eventually came to my final version because I liked the brandmark of the mars turning into the golfball. I also liked the goofy off-kilter lettering which I felt reflected fun.</p>
+			<div class = "place">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+			</div>
+		</section>
+		<section class="process_part">
+			<h2 class="stage">Merchandise Application</h2>
+			<hr>
+			<p>Wehn applying the logo to a piece of merch, there were a few changes that I had to implement. Since I wanted to iron on my logo to a hat I had to change the background of the logo. The original logo has a transparent background, but this one has a purple background so that the logo is easier to cut out of the iron on paper. I chose purple because I thought that it was a nice complimentary color, and becasue I thought it had a similar space age fun feel.</p>
+			<div class = "place">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
+			</div>
+		</section>
+	</main>
+</body>
+</html>
 
