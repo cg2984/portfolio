@@ -1,0 +1,93 @@
+#process{
+	display:flex;
+	flex-direction:column;
+	margin: 10px;
+	margin-top: 45px;
+}
+
+.process_part{
+	margin: 10px;
+	padding:10px;
+	border: 1px solid black;
+}
+.stage{
+	font-color: white;
+	font-size: 50px;
+}
+
+hr{
+	border: .5px black dashed;
+}
+
+.project_head{
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+}
+
+body{
+	display:flex;
+	flex-direction: row
+}
+
+.place{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start; 
+	height:650px;
+	width:650px;
+}
+
+.myImg{
+	width:200px;
+	height:200px;
+	object-fit:cover;
+	margin: 5px;
+}
+
+#statement{
+	display:block;
+	flex-direction:column;
+	outline: 2px solid #353535;
+	outline-offset: 5px;
+	border: 1px dashed black;
+	background-color: white;
+	width: 500px;
+	height: 700px;
+	margin:5px;
+	position:sticky;
+	top:70px;
+}
+.statement_dec{
+	font-size: 24px;
+}
+#statement_head{
+	font-size: 60px;
+}
+
+#home{
+	position:sticky;
+	top:20px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#img01{
+	width:600px;
+	height:600px;
+	object-fit:cover;
+}
