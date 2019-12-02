@@ -1,1 +1,71 @@
-graphic design
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graphic Design</title>
+	<link href="https://fonts.googleapis.com/css?family=Heebo:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Signika:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Signika:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
+	<link href="graphicdesign.scss">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<script>
+	var modal = document.getElementById("myModal");
+	var images = document.getElementsByClassName("giClass");
+	var modalImg = document.getElementById("img01")
+
+	for (var i = 0; i < images.length; i++) {
+	  var img = images[i];
+	  console.log("added")
+	  // and attach our click listener for this image. the evt means that it is an event listener
+	  img.onclick = function(evt) {
+	    modal.style.display = "block";
+	    modalImg.src = this.src;
+	    console.log("clicked")
+	  }
+	}
+
+	var span = document.getElementsByClassName("close")[0];
+	
+	modal.onclick = function(evt){
+	  modal.style.display = "none"
+	}
+</script>
+<body class="gdBody">
+  <header>
+    <h1>GRAPHIC DESIGN</h1>
+    <a href="/">HOME</a>
+  </header>
+  <main class="gdMain">
+    </div>
+    <div class="graphic_cover">
+      <p> Super Hero Club </p>
+      <img class="giClass" src="https://live.staticflickr.com/7920/46687613705_46c9c67192_b.jpg">
+    </div>
+    <div class="graphic_cover">
+      <p>Black Hole Tours</p>
+      <img class="giClass" src="https://live.staticflickr.com/7877/32660969797_05ac8d718f_b.jpg">
+    </div>
+    <div class="graphic_cover">
+      <p> Witches Brew </p>
+      <img class="giClass" src="https://live.staticflickr.com/7892/46687733805_12ddf4480d_b.jpg">
+    </div>
+    <div class="graphic_cover">
+      <p> SMaPP Logo Project </p>
+      <img class="giClass" src="https://live.staticflickr.com/7830/46687613965_18b4ef2bd5_b.jpg">
+    </div>
+    <div class="graphic_cover">
+      <p> A Fun Illustration </p>
+      <img class="giClass" src="https://live.staticflickr.com/7851/33726207438_9c03dc9170_b.jpg">
+    </div>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01"> 
+  	</div>
+  </main>
+</body>
+</html>
