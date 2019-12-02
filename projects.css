@@ -1,3 +1,48 @@
+header{
+	display:flex;
+	flex-direction: row;
+	align-content:center;
+	justify-content:space-between;
+}
+body{
+	background-color:#f7f7f7;
+	display:flex;
+	flex-direction: row
+}
+li{
+	list-style:none;
+	margin:10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	font-size: 20px;
+	padding:10px;	
+}
+h1{
+	margin:10px;
+	padding: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 100px;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	font-size: 20px;
+	padding:10px;
+}
+a{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+}
+.headerLink:hover{
+	color: #cc0c0c;
+}
+
 #process{
 	display:flex;
 	flex-direction:column;
@@ -25,12 +70,6 @@ hr{
 	flex-direction: column;
 	justify-content:flex-start;
 }
-
-body{
-	display:flex;
-	flex-direction: row
-}
-
 .place{
 	display: flex;
 	flex-direction: row;
