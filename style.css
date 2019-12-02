@@ -20,6 +20,13 @@ ul{
 	height:500px;
 	padding:10px;
 	margin:30px;
+	width:500px;
+	height:250px;
+	padding:10px;
+	outline: 2px solid #353535;
+	outline-offset: 5px;
+	border: 1px dashed black;
+	margin:10px;
 }
 
 .main:hover{
