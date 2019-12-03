@@ -10,31 +10,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
-	<link href="graphicdesign.scss">
+	<link href="graphicdesign.css">
+	<link href = "script.js>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
-<script>
-	var modal = document.getElementById("myModal");
-	var images = document.getElementsByClassName("giClass");
-	var modalImg = document.getElementById("img01")
-
-	for (var i = 0; i < images.length; i++) {
-	  var img = images[i];
-	  console.log("added")
-	  // and attach our click listener for this image. the evt means that it is an event listener
-	  img.onclick = function(evt) {
-	    modal.style.display = "block";
-	    modalImg.src = this.src;
-	    console.log("clicked")
-	  }
-	}
-
-	var span = document.getElementsByClassName("close")[0];
-	
-	modal.onclick = function(evt){
-	  modal.style.display = "none"
-	}
-</script>
 <body class="gdBody">
   <header>
     <h1>GRAPHIC DESIGN</h1>
