@@ -11,7 +11,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
-	<link href="graphicdesign.scss">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 <body>
@@ -83,4 +82,30 @@
 		</section>
 	</main>
 </body>
+<script>
+	var modal = document.getElementById("myModal");
+	var images = document.getElementsByClassName("myImg");
+	var modalImg = document.getElementById("img01")
+
+	for (var i = 0; i < images.length; i++) {
+		console.log("added")
+	  var img = images[i];
+	  // and attach our click listener for this image. the evt means that it is an event listener
+	  img.onclick = function(evt) {
+	    modal.style.display = "block";
+	    modalImg.src = this.src;
+	    console.log("clicked")
+	  }
+	}
+
+	var span = document.getElementsByClassName("close")[0];
+
+	span.onclick = function() {
+	  modal.style.display = "none";
+	}
+
+	modal.onclick = function(){
+	  modal.style.display = "none"
+	}
+</script>
 </html>
