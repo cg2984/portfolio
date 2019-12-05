@@ -8,7 +8,7 @@ window.onload = function(){
 	  var img = images[i];
 	  //the evt means that it is an event listener
 	  img.onclick = function(evt) {
-	    modal.style.display = "block";
+	    modal.style.display = "flex";
 	    modalImg.src = this.src;
 	    console.log("clicked")
 	  }
