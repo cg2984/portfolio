@@ -127,9 +127,9 @@ hr{
 
 #img01{
 	margin: 200px;
-	width:600px;
-	height:600px;
-	object-fit:cover;
+	height:75%;
+	width:75%;
+
 }
 .myImg:hover{
 	border: 1px solid #cc0c0c;
