@@ -130,3 +130,6 @@ hr{
 	height:600px;
 	object-fit:cover;
 }
+.myImg:hover{
+	border: 1px solid black;
+}
