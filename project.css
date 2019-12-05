@@ -126,10 +126,11 @@ hr{
 }
 
 #img01{
+	margin: 200px;
 	width:600px;
 	height:600px;
 	object-fit:cover;
 }
 .myImg:hover{
-	border: 1px solid black;
+	border: 1px solid #cc0c0c;
 }
