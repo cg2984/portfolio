@@ -24,6 +24,8 @@ h1{
 }
 h2{
 	font-family: 'Montserrat', sans-serif;
+	margin: 10px;
+	color: #cc0c0c;
 }
 p{
 	font-family: 'Source Sans Pro', sans-serif;
