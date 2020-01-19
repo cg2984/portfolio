@@ -23,13 +23,14 @@ h1{
 	font-family: 'Poppins', sans-serif;
 }
 h2{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	margin: 10px;
 }
 p{
 	font-family: 'Merriweather', serif;
-	font-size: 25px;
+	font-size: 17px;
 	padding:10px;
+	line-height: 2;
 }
 a{
 	font-family: 'Source Sans Pro', sans-serif;
