@@ -18,26 +18,24 @@ li{
 	padding:10px;	
 }
 h1{
-	margin:10px;
-	padding: 10px;
 	font-family: 'Poppins', sans-serif;
+  
 }
 h2{
 	font-family: 'Poppins', sans-serif;
-	margin: 10px;
+  margin:10px;
 }
 p{
-	font-family: 'Merriweather', serif;
-	font-size: 17px;
-	padding:10px;
-	line-height: 2;
+	font-family: 'Sanchez', serif;
+	font-size: 24px;
+	padding:20px;
+  line-height: 1.6;
+  color: #1f1f1f;
 }
 a{
-	font-family: 'Source Sans Pro', sans-serif;
-	color: black;
-	text-decoration: none;
-	font-size: 20px;
-	padding: 10px;
+	font-family: 'Sanchez', serif;
+	font-size: 24px;
+  color: #1f1f1f;
 }
 .headerLink:hover{
 	color: #cc0c0c;
@@ -95,15 +93,23 @@ hr{
 	background-color: white;
 	width: 500px;
 	height: 700px;
-	margin:5px;
 	position:sticky;
 	top:70px;
 }
 .statement_dec{
 	font-size: 24px;
+  margin:5px;
+  padding:5px;
 }
 #statement_head{
 	font-size: 60px;
+  margin:5px;
+  padding:5px;
+}
+.statement_txt{
+  margin:5px;
+  font-size: 21px;
+  padding:5px;
 }
 
 #home{
