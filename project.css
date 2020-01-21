@@ -1,107 +1,172 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Lil' Einstein Project</title>
-	<link href="project.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:450" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Glegoo|Sanchez&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-</head>
-<body>
-	<div id="myModal" class="modal">
-      	<span class="close">&times;</span>
-      	<img class="modal-content" id="img01"> 
-  	</div>
-  <div id="main_nav">
-    <a class = "link_nav" href="/portfolio">PREVIOUS PROJECT</a>
-    <a class = "link_nav" href="/portfolio">HOME</a>
-    <a class = "link_nav" href="/portfolio">NEXT PROJECT</a>
-  </div>
-	<header class = "project_head">
-		<section id="statement">
-			<h1 id="statement_head">LITTLE EINSTIEN<br> PROJECT</h1>
-				<div>
-					<h2 class="statement_dec">PROBLEM:</h2>
-					<p class = "statement_txt"> Design a logo for a brick and mortar STEM toy store that is expanding into the digital zone. The website has to have the community feel that the owner gets from the brick and mortart store, as well as a way for the buyers to get a real-life sense of the toy that they are buying.</p>
-					<h2 class = "statement_dec"> SOLUTION:</h2>
-					<p class = "statement_txt"> Something. Something else. SOmething more.</p>
-				</div>
-		</section>
-	</header>
-	<main id = "process">
-		<section class = "process_part">
-			<h2 class="stage">Brainstorming and Background Research</h2>
-			<hr>
-			<p>In this stage we began to plan out the issues that we would face for the project. One of the main ones that we immedialtye began to think about was who was the webstie for. The main purpose would be to sell STEM toys, so we decided that hte people visting would be buying toys for children. But, they wouldn't necessarily be the parents of the children, so they might not know exactly what they wanted from the toy store.</p>
-			<p> We also had to figure out the sections to divide the toys into. STEM was a logical first step since the toys are in those categories already. However, we considered atht someone buying toys might not really be thinking in those terms. To get a better sense of how toys are divided we went to a real toy store to see how real sotre owners decided to categorise the toys that they had. We were also able to get a sense of the questions are concerns that people have when buying toy by asking an emplyee at the store.</p>
-			<div class = "place">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49400882441_633892b817_o.jpg" width="3024" height="4032" alt="20180213_171947">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49401085507_e6a7127d60_o.jpg" width="4032" height="3024" alt="20180213_172144">
-			</div>
-		</section>
-		<section class = "process_part">
-      <hr>
-			<h2 class ="stage">Sketching the Website</h2>
-			<hr>
-			<p>With the beginnings of the research under our belt we began to sketch out how the website would look. Out initial sketches were on paper so that we could just get the idea of the website down, rather than spending time refining a design that we might scrap soon anyways. There were 2 versions of sketches that we had to test on the users. </p>
-			<div class = "place">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49400882676_a2e2edc24c_o.jpg" width="4032" height="3024" alt="IMG_20180217_161049">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49400404488_ca897e262e_o.jpg" width="4032" height="3024" alt="IMG_20180218_210100">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49400882526_6a09355d83_o.jpg" width="4032" height="3024" alt="IMG_20180218_210123">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49401083462_94f6d3361a_o.jpg" width="3024" height="4032" alt="20180217_160335">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49400884536_93b67aac91_o.jpg" width="4032" height="3024" alt="20180217_145842">
-			</div>
-		</section>
-		<section class="process_part">
-      <hr>
-			<h2 class="stage">User Testing</h2>
-			<hr>
-			<p>We put the handdrawn sketches into Marvel, a prototyping app. By putting it into Marvel we were able to have users test the website online. We also made a Google Form for the users to fill out after they tested the prototype website. THrough this process we were able to get a lot of great feedback about the effectiveness of the website.</p>
-			<p>There was also in person user testing. This was a bit more helpful than the online testing because we were able to give the users a directive and observe the steps that they took to complete it. We were also able to ask questions when the users were stuck somewhere, or lingered somewhere which was really helpful because it gave further insight into the thought process of the user when navigating the prototype website.</p>
-			<div class = "place">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49401085337_029ae5a86c_o.jpg" width="4032" height="2268" alt="20180226_130805">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49400884296_91b4225381_o.jpg" width="4032" height="2268" alt="20180226_131146">
-			</div>
-		</section>
-		<section class="process_part">
-      <hr>
-			<h2 class="stage">User Journies</h2>
-			<hr>
-			<p>Another part of the project that I helped to work on was the user journey. Throughout the process we were alsways consiering the steps that a user would have to take to get to the most cirtical parts of the website. Afterall, we didn't want an important part of the website, like the contact page, to be buried beneath layers of UI. PArt of the finialization process was making sure that the journies for each of our WORD FOR FAKE USER THAT I HAVE FORGOTTEN made sense.</p>
-			<div class = "place">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49400403223_4f33ff1ee5_o.jpg" width="1500" height="1125" alt="User+Flow_+The+GREENS+(1)-1">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49401082322_b269f18b89_o.jpg" width="1500" height="1125" alt="User+Flow_+Ella-1">
-				<img class = "myImg" src="https://live.staticflickr.com/65535/49400403258_eb8b5c72ee_o.jpg" width="1500" height="1125" alt="User+Flow_+Anne+(1)-1">
-			</div>
-		</section>
-	</main>
-</body>
-<script>
-	var modal = document.getElementById("myModal");
-	var images = document.getElementsByClassName("myImg");
-	var modalImg = document.getElementById("img01")
+header{
+	display:flex;
+	flex-direction: row;
+	align-content:center;
+	justify-content:space-between;
+}
+body{
+	background-color:#f7f7f7;
+	display:flex;
+	flex-direction: row;
+}
+li{
+	list-style:none;
+	margin:10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	font-size: 20px;
+	padding:10px;	
+}
+h1{
+	font-family: 'Poppins', sans-serif;
+}
+h2{
+	font-family: 'Poppins', sans-serif;
+  margin:10px;
+}
+p{
+	font-family: 'Sanchez', serif;
+	font-size: 24px;
+	padding:20px;
+  line-height: 1.6;
+  color: #1f1f1f;
+}
+a{
+	font-family: 'Sanchez', serif;
+	font-size: 24px;
+}
+.link_nav:hover{
+  animation-duration:1s;
+  animation-name:nav_hover;
+}
 
-	for (var i = 0; i < images.length; i++) {
-		console.log("added")
-	  var img = images[i];
-	  // and attach our click listener for this image. the evt means that it is an event listener
-	  img.onclick = function(evt) {
-	    modal.style.display = "block";
-	    modalImg.src = this.src;
-	    console.log("clicked")
-	  }
-	}
+#process{
+	display:flex;
+	flex-direction:column;
+	margin-top: 25px;
+}
 
-	var span = document.getElementsByClassName("close")[0];
+.process_part{
+	margin: 10px;
+	padding:10px;
+}
 
-	span.onclick = function() {
-	  modal.style.display = "none";
-	}
+.stage{
+	font-size: 50px;
+}
 
-	modal.onclick = function(){
-	  modal.style.display = "none"
-	}
-</script>
-</html>
+hr{
+	border: .5px black dashed;
+}
+
+.project_head{
+	padding: 0px 45px 45px 45px;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-start;
+  
+}
+.place{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start; 
+	height:auto;
+	width:auto;
+}
+
+.myImg{
+	width:150px;
+	height:150px;
+	object-fit:cover;
+	margin: 5px;
+	opacity: 50%;
+}
+
+#statement{
+	display:block;
+	flex-direction:column;
+	outline: 2px solid #f7f7f7;
+	outline-offset: 5px;
+	border: 1px dashed #f7f7f7;
+	background-color: #3b3737;
+	width: 500px;
+	height: 700px;
+	position:sticky;
+	top:75px;
+}
+.statement_dec{
+	font-size: 24px;
+  margin:10px;
+  padding:5px;
+  color:#b3aaaa;
+}
+#statement_head{
+	font-size: 60px;
+  margin:10px;
+  padding:5px;
+  color:#f7f7f7;
+}
+.statement_txt{
+  margin:5px;
+  font-size: 21px;
+  padding:10px;
+  color:#968080;
+}
+
+.link_nav{
+  position:sticky;
+  color:#968080;
+  top:10px;
+  margin:10px;
+  padding:10px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  justify-content: center;
+}
+
+#img01{
+	margin-top: 25px;
+	height: 90%;
+}
+.myImg:hover{
+	border: 1px solid #cc0c0c;
+	margin: 4px;
+	opacity:100%;
+}
+header{
+  background: #171717;
+  margin: -10px;
+}
+#main_nav{
+  height:50px;
+  width:100%;
+  background-color:#3b3737;
+  position:fixed;
+  margin:-10px;
+  justify-content:space-evenly;
+  align-items:center;
+  display:flex;
+}
+
+@keyframes nav_hover{
+  0%{background-color:#3b3737;
+    color:#968080;
+  }
+  100%{background: white;
+    color: #3b3737;
+    }
+}
+
