@@ -155,10 +155,10 @@ nav{
 }
 /*Animation---------------------------------------------*/
 @keyframes nav_hover{
-  0%{background-color:#3b3737;
+  0%{
     color:#968080;
   }
-  100%{background: white;
+  100%{
     color: #3b3737;
     }
 }
