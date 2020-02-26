@@ -41,6 +41,16 @@ a{
 hr{
 	border: .5px black dashed;
 }
+nav{
+  height:50px;
+  width:100%;
+  background-color:#3b3737;
+  position:fixed;
+  margin:-10px;
+  justify-content:space-evenly;
+  align-items:center;
+  display:flex;
+}
 /*Classes----------------------------------------------*/
 .link_nav{
   position:sticky;
@@ -101,16 +111,6 @@ hr{
 #img01{
 	margin-top: 25px;
 	height: 90%;
-}
-#main_nav{
-  height:50px;
-  width:100%;
-  background-color:#3b3737;
-  position:fixed;
-  margin:-10px;
-  justify-content:space-evenly;
-  align-items:center;
-  display:flex;
 }
 /*statement---------------------------------------------*/
 #statement{
