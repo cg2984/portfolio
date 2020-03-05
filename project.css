@@ -139,10 +139,11 @@ nav{
  }
 
 .process_text{
-  outline: 2px solid black;
+	width:1080px;
+	outline: 2px solid black;
 	outline-offset: 5px;
 	border: 1px dashed black;
-  margin:20px;
+	margin:20px;
 }
 /*Animation---------------------------------------------*/
 @keyframes nav_hover{
