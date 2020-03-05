@@ -10,42 +10,8 @@
   	<link href="https://fonts.googleapis.com/css?family=Glegoo|Sanchez&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
-<script>
-	var modal = document.getElementById("myModal");
-	var images = document.getElementsByClassName("myImg");
-	var modalImg = document.getElementById("img01")
-
-	for (var i = 0; i < images.length; i++) {
-		console.log("added")
-	  var img = images[i];
-	  // and attach our click listener for this image. the evt means that it is an event listener
-	  img.onclick = function(evt) {
-	    modal.style.display = "block";
-	    modalImg.src = this.src;
-	    console.log("clicked")
-	  }
-	}
-
-	var span = document.getElementsByClassName("close")[0];
-
-	span.onclick = function() {
-	  modal.style.display = "none";
-	}
-
-	modal.onclick = function(){
-	  modal.style.display = "none"
-	}
-</script>
 <body>
-	<div id="myModal" class="modal">
-      	<span class="close">&times;</span>
-      	<img class="modal-content" id="img01"> 
-  	</div>
-  	<!--<div id="main_nav">
-    	<a class = "link_nav" href="/smapp">PREVIOUS PROJECT</a>
-    	<a class = "link_nav" href="/">HOME</a>
-    	<a class = "link_nav" href="/lile">NEXT PROJECT</a>
-  	</div>-->
+
 	<header class = "project_head">
 		<a class = "link_nav" href="/">HOME</a>
 		<section id="statement">
@@ -60,10 +26,11 @@
 	</header>
 	<main id = "process">
 		<section class = "process_part">
-			<h2 class ="stage">Lo-Fi Prototype/h2>
-			<hr>
-			<p>In the Lo-Fi prototype I mainly focused on experminting with different buttons and sections shapes. As I said before, I really wanted to make sure that the button I would use whould limit misclicks.</p>
-			<div class = "place">
+			<div class = "process_text">
+				<h2 class ="stage">Lo-Fi Prototype</h2>
+				<p>In the Lo-Fi prototype I mainly focused on experminting with different buttons and sections shapes. As I said before, I really wanted to make sure that the button I would use whould limit misclicks.</p>
+			</div>
+			<div class = "imageGallery">
 				<img class = "myImg" src="https://live.staticflickr.com/65535/49442799707_78f3c52cfb_o.png" alt="Surface Book - 6">
 				<img class = "myImg" src="https://live.staticflickr.com/65535/49442569751_c479a8a279_o.png" alt="Surface Book - 7">
 				<img class = "myImg" src="https://live.staticflickr.com/65535/49442569721_e6e4bf95ec_o.png" alt="Surface Book - 8">
@@ -72,11 +39,12 @@
 				<img class = "myImg" src="https://live.staticflickr.com/65535/49442096708_2c3af7a624_o.png" alt="Surface Book - 11">
 		</section>
 		<section class="process_part">
-			<hr>
-			<h2 class="stage">Final Iteration</h2>
-			<hr>
-			<p>Once I had mostly figures out the layout and the Lo-FI prototype, I began to move into the HI-Fi Prototye. In the Hi-Fi prototype I changed around the typeface, some of the spacing, the color, and the effects. To get the fun bubbly effect I layered different typefaces. I chose the typeface I did because it had the right mix of the roundness and the boldness that I wanted.</p>
-			<div class = "place">
+			<div class = "process_text">
+				<h2 class="stage">Final Iteration</h2>
+				<hr>
+				<p>Once I had mostly figures out the layout and the Lo-FI prototype, I began to move into the HI-Fi Prototye. In the Hi-Fi prototype I changed around the typeface, some of the spacing, the color, and the effects. To get the fun bubbly effect I layered different typefaces. I chose the typeface I did because it had the right mix of the roundness and the boldness that I wanted.</p>
+			</div>
+			<div class = "imageGallery">
 				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
 				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">
 				<img class = "myImg" src="https://live.staticflickr.com/65535/49142198232_20a2c30989_o.png" alt="Final Logo">

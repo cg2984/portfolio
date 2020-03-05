@@ -1,5 +1,5 @@
 body{
-	background-color:#f7f7f7;
+	background-color:#d9d7d7;
 }
 header{
 	display:flex;
@@ -22,69 +22,56 @@ h1{
 	margin:10px;
 	padding: 10px;
 	font-family: 'Poppins', sans-serif;
+	font-size: 80px;
+  	color:#f7f7f7;
+  	text-shadow:0 1px 5px #968080;
 }
 h2{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 40px;
+	color:#cccaca;
+	text-shadow:-1px -1px 1px #705959;
+	font-family: 'Poppins', sans-serif;
 }
 p{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Sanchez', sans-serif;
 	color: black;
 	font-size: 20px;
 	padding:10px;
 }
 a{
-	font-family: 'Source Sans Pro', sans-serif;
-	color: black;
+	font-family: 'Sanchez', sans-serif;
+	color: #968080;
 	text-decoration: none;
 	font-size: 20px;
 	padding: 10px;
 }
-img{
-	display:none;
-	object-fit:cover;
-	width:300px;
-	height:150px;
-}
-img:hover{
-	display:block;
-	object-fit:cover;
-	width:450px;
-	height:150px;
-}
-.headerLink:hover{
-	color: #cc0c0c;
-}
-
 .homeBody{
 	margin:0 auto;
 	width:1080px;
 	display:flex;
 	flex-direction:column;
-	flex-wrap:wrap;
 }
 
 .projectWrapper{
 	margin: 0 auto;
-	width: 1080px;
 	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
 }
 
 
-
 .project{
-	background-color: white;
-	width: 450px;
-	height:450px;
+	background-color: #968080;
+	width: 300px;
+	height:300px;
 	padding:10px;
-	margin:50px;
-	padding:10px;
-	outline: 2px solid #353535;
+	margin:20px;
+	outline: 2px solid #705959;
 	outline-offset: 5px;
-	border: 1px dashed black;
-	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	align-content: center;
+	border: 2px dashed #705959;
+
+	text-align:center;
 }
 .main:hover{
 	color: #cc0c0c;

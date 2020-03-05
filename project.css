@@ -1,8 +1,30 @@
-/*Main Elements-----------------------------------------*/
+a{
+	font-family: 'Sanchez', serif;
+	font-size: 24px;
+	color:#968080;
+}
+
 body{
-	background-color:#f7f7f7;
+	background-color:#d9d7d7;
 	display:flex;
 	flex-direction: column;
+	width:75%;
+	margin: 0 auto;
+}
+footer{
+	text-align:center;
+	background-color: #bd806c;
+	padding: 25px;
+	height:50px;
+	width:100%;
+	margin:0 auto;
+}
+h1{
+	font-family: 'Poppins', sans-serif;
+}
+h2{
+	font-family: 'Poppins', sans-serif;
+	margin:5px;
 }
 header{
 	display:flex;
@@ -10,7 +32,20 @@ header{
 	align-content:center;
 	justify-content:space-between;
 	background: #d9d7d7;
-	margin: 
+}
+hr{
+	border: 1px #968080 dashed;
+}
+.imageGallery{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start; 
+}
+#img01{
+	margin-top: 25px;
+	height: 90%;
 }
 li{
 	list-style:none;
@@ -19,70 +54,6 @@ li{
 	color: black;
 	font-size: 20px;
 	padding:10px;	
-}
-h1{
-	font-family: 'Poppins', sans-serif;
-}
-h2{
-	font-family: 'Poppins', sans-serif;
-  margin:10px;
-}
-p{
-	font-family: 'Sanchez', serif;
-	font-size: 24px;
-	padding:20px;
-  line-height: 1.6;
-  color: #1f1f1f;
-}
-a{
-	font-family: 'Sanchez', serif;
-	font-size: 24px;
-}
-hr{
-	border: .5px black dashed;
-}
-nav{
-  height:50px;
-  width:100%;
-  background-color:#3b3737;
-  position:fixed;
-  justify-content:space-evenly;
-  align-items:center;
-  display:flex;
-}
-/*Classes----------------------------------------------*/
-.link_nav{
-  position:sticky;
-  color:#968080;
-  top:10px;
-  margin:10px;
-  padding:10px;
-  z-index: 1;
-}
-.stage{
-	font-size: 50px;
-}
-.project_head{
-	padding: 0px 45px 45px 45px;
-	display: flex;
-	flex-direction: column;
-	justify-content:flex-start;
-}
-.imageGallery{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: flex-start; 
-	height:auto;
-	width:auto;
-}
-.myImg{
-	width:150px;
-	height:150px;
-	object-fit:cover;
-	margin: 10px;
-	opacity: 50%;
 }
 .modal {
   display: none; /* Hidden by default */
@@ -97,55 +68,85 @@ nav{
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   justify-content: center;
 }
-/*ID's--------------------------------------------------*/
-#img01{
-	margin-top: 25px;
-	height: 90%;
+.myImg{
+	width:50%;
+	height:50%;
 }
-/*statement---------------------------------------------*/
+p{
+	font-family: 'Sanchez', serif;
+	font-size: 24px;
+	padding:20px;
+	line-height: 1.6;
+	color: #1f1f1f;
+}
+.pageNav{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+}
+.pageNav a{
+	margin:20px;
+}
 .projectStatement{
-  margin: 10px auto;
+	margin: 10px auto;
 	display:block;
 	flex-direction:row;
 	top:75px;
 }
-.statement_dec{
-	font-size: 35px;
-  margin:10px;
-  padding:5px;
-  color:#b3aaaa;
+.project_head{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	text-align:center;
 }
-.statement_head{
+.project_title{
 	font-size: 80px;
-  margin:10px;
-  padding:5px;
-  color:#f7f7f7;
+  	margin:10px;
+ 	padding:5px;
+  	color:#f7f7f7;
+  	text-shadow:0 1px 5px #968080;
 }
-.statement_txt{
-  margin:5px;
-  font-size: 24px;
-  padding:10px;
-  color:#968080;
-}
-/*process-----------------------------------------------*/
 .process{
 	display:flex;
-	flex-direction:column;
-	margin-top: 25px;
+	flex-direction:row;
+	margin:0 auto;
 }
-.process_part{
-	margin: 10px;
-	padding:10px;
- }
 
 .process_text{
-	width:1080px;
-	outline: 2px solid black;
+	width:55%;
+	outline: 2px solid #968080;
 	outline-offset: 5px;
-	border: 1px dashed black;
-	margin:20px;
+	border: 1px dashed #968080;
+	margin:20px auto;
+	background:#f7f7f7;
+	box-shadow:0 1px 5px #968080;
 }
-/*Animation---------------------------------------------*/
+.stage{
+	font-size: 50px;
+	color:#cccaca;
+	text-shadow:-1px -1px 1px #968080;
+}
+.statement_dec{
+	font-size: 35px;
+	padding:5px;
+	color:#968080;
+}
+.statement_txt{
+  font-size: 24px;
+  line-height:24px;
+  color:#968080;
+  margin:0 auto;
+}
+.websiteNav{
+  color:#968080;
+  margin:10px auto;
+  padding:10px;
+  position:sticky;
+  top:0;
+  background-color:#d9d7d7;
+  width:100%;
+  text-align:center;
+}
 @keyframes nav_hover{
   0%{
     color:#968080;
