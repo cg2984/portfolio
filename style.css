@@ -54,18 +54,22 @@ img:hover{
 .headerLink:hover{
 	color: #cc0c0c;
 }
-.mainHome{
-	display:flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-items:center;
-	align-content:space-between;
-}
 
 .homeBody{
+	margin:0 auto;
+	width:1080px;
 	display:flex;
 	flex-direction:column;
+	flex-wrap:wrap;
 }
+
+.projectWrapper{
+	margin: 0 auto;
+	width: 1080px;
+	display:flex;
+}
+
+
 
 .project{
 	background-color: white;

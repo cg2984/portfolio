@@ -2,15 +2,15 @@
 body{
 	background-color:#f7f7f7;
 	display:flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 header{
 	display:flex;
 	flex-direction: row;
 	align-content:center;
 	justify-content:space-between;
-  background: #171717;
-  margin: -10px;
+	background: #d9d7d7;
+	margin: 
 }
 li{
 	list-style:none;
@@ -46,7 +46,6 @@ nav{
   width:100%;
   background-color:#3b3737;
   position:fixed;
-  margin:-10px;
   justify-content:space-evenly;
   align-items:center;
   display:flex;
@@ -60,10 +59,6 @@ nav{
   padding:10px;
   z-index: 1;
 }
-.link_nav:hover{
-  animation-duration:1s;
-  animation-name:nav_hover;
-}
 .stage{
 	font-size: 50px;
 }
@@ -73,7 +68,7 @@ nav{
 	flex-direction: column;
 	justify-content:flex-start;
 }
-.place{
+.imageGallery{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -86,13 +81,8 @@ nav{
 	width:150px;
 	height:150px;
 	object-fit:cover;
-	margin: 5px;
+	margin: 10px;
 	opacity: 50%;
-}
-.myImg:hover{
-	border: 1px solid #cc0c0c;
-	margin: 4px;
-	opacity:100%;
 }
 .modal {
   display: none; /* Hidden by default */
@@ -113,33 +103,27 @@ nav{
 	height: 90%;
 }
 /*statement---------------------------------------------*/
-#statement{
+.projectStatement{
+  margin: 10px auto;
 	display:block;
-	flex-direction:column;
-	outline: 2px solid #f7f7f7;
-	outline-offset: 5px;
-	border: 1px dashed #f7f7f7;
-	background-color: #3b3737;
-	width: 500px;
-	height: 700px;
-	position:sticky;
+	flex-direction:row;
 	top:75px;
 }
 .statement_dec{
-	font-size: 24px;
+	font-size: 35px;
   margin:10px;
   padding:5px;
   color:#b3aaaa;
 }
 #statement_head{
-	font-size: 60px;
+	font-size: 80px;
   margin:10px;
   padding:5px;
   color:#f7f7f7;
 }
 .statement_txt{
   margin:5px;
-  font-size: 21px;
+  font-size: 24px;
   padding:10px;
   color:#968080;
 }
@@ -152,6 +136,13 @@ nav{
 .process_part{
 	margin: 10px;
 	padding:10px;
+ }
+
+.process_text{
+  outline: 2px solid black;
+	outline-offset: 5px;
+	border: 1px dashed black;
+  margin:20px;
 }
 /*Animation---------------------------------------------*/
 @keyframes nav_hover{
