@@ -2,7 +2,8 @@
 body{
 	background-color:#f7f7f7;
 	display:flex;
-	flex-direction: row;
+	flex-direction: column;
+	margin:0 auto;
 }
 header{
 	display:flex;
@@ -73,7 +74,7 @@ nav{
 	flex-direction: column;
 	justify-content:flex-start;
 }
-.place{
+.imageGallery{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
