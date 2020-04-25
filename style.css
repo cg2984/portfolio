@@ -1,5 +1,5 @@
 body{
-	background-color:#d9d7d7;
+	background-color:white;
 }
 header{
 	display:flex;
@@ -14,7 +14,7 @@ ul{
 li{
 	list-style:none;
 	margin:10px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Sanchez', sans-serif;
 	color: black;
 	font-size: 20px;
 }
@@ -22,28 +22,46 @@ h1{
 	margin:10px;
 	padding: 10px;
 	font-family: 'Poppins', sans-serif;
-	font-size: 80px;
-  	color:#f7f7f7;
-  	text-shadow:0 1px 5px #968080;
+	font-size: 40px;
+  color:#25cfa4;
 }
 h2{
-	font-size: 40px;
-	color:#cccaca;
-	text-shadow:-1px -1px 1px #705959;
+	font-size: 35px;
+	color:#25cfa4;
 	font-family: 'Poppins', sans-serif;
+  font-weight:500;
+  margin:0px;
+  padding:0 10px;
+}
+h2:hover{
+  color:white;
 }
 p{
-	font-family: 'Sanchez', sans-serif;
-	color: black;
+	font-family: 'Poppins', sans-serif;
+  font-weight:300;
+	color: #968080;
 	font-size: 20px;
-	padding:10px;
+  padding:0;
+  margin:0px;
+  padding:0 15px;
+  line-height:5px;
 }
 a{
-	font-family: 'Sanchez', sans-serif;
+	font-family: 'Poppins', sans-serif;
+  	font-weight:300;
 	color: #968080;
 	text-decoration: none;
 	font-size: 20px;
 	padding: 10px;
+}
+a:hover{
+  color:#ffffff;
+  background-color:#25cfa4;
+}
+
+a h2{
+  margin:0px;
+  padding:0 10px;
 }
 .homeBody{
 	margin:0 auto;
@@ -56,16 +74,27 @@ a{
 	margin: 0 auto;
 	display:flex;
 	flex-direction:column;
-	justify-content:flex-start;
+	justify-content:center;
 }
 
+.project_pic{
+  object-fit:cover;
+  height:150px;
+  width:300px;
+}
+
+.project_txt{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-content:flex-start;
+}
 
 .project{
-	background-color: #968080;
-	padding:10px;
-	margin:20px;
+  display:flex;
+  flex-direction:row;
+  margin:30px;
 }
 .main:hover{
 	color: #cc0c0c;
 }
-

@@ -73,11 +73,14 @@ li{
 	height:50%;
 }
 p{
-	font-family: 'Sanchez', serif;
-	font-size: 24px;
-	padding:20px;
-	line-height: 1.6;
-	color: #1f1f1f;
+	font-family: 'Poppins', sans-serif;
+	font-weight:300;
+	color: #968080;
+	font-size: 20px;
+	padding:0;
+	margin:0px;
+	padding:0 15px;
+	line-height:5px;
 }
 .pageNav{
 	display:flex;
