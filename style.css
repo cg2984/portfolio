@@ -14,7 +14,7 @@ ul{
 li{
 	list-style:none;
 	margin:10px;
-	font-family: 'Sanchez', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: black;
 	font-size: 20px;
 }
@@ -22,29 +22,30 @@ h1{
 	margin:10px;
 	padding: 10px;
 	font-family: 'Poppins', sans-serif;
+	font-weight:900;
 	font-size: 40px;
-  color:#25cfa4;
+	color:#25cfa4;
 }
 h2{
 	font-size: 35px;
 	color:#25cfa4;
 	font-family: 'Poppins', sans-serif;
-  font-weight:500;
-  margin:0px;
-  padding:0 10px;
+	font-weight:500;
+	margin:0px;
+	padding:0 10px;
 }
 h2:hover{
   color:white;
 }
 p{
 	font-family: 'Poppins', sans-serif;
-  font-weight:300;
+	font-weight:300;
 	color: #968080;
 	font-size: 20px;
-  padding:0;
-  margin:0px;
-  padding:0 15px;
-  line-height:5px;
+	padding:0;
+	margin:0px;
+	padding:0 15px;
+	line-height:5px;
 }
 a{
 	font-family: 'Poppins', sans-serif;
