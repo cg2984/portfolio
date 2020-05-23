@@ -34,36 +34,52 @@
 		</section>
 		<section class = "process_part" id = "stage1">
 			<div class = "process_text">
-				<h2 class="stage">Version 1: Coffee Shop</h2>
+				<h2 class="stage">Code</h2>
 				<hr>
-				<p>I wanted to have a social media site that is only open in the morning. When I thought about places that are only open in the morning, my immediate thought was to a cafe since it is a place where people can sit and contemplate ideas. The purpose of the app is to share your thoughts that you get while working at a cafe, and share them to others. Inspiration might strike when sharing and looking at others ideas. 
-
-				A coffee shop is a warm, welcoming place. So I wanted to have warmer, coffee colors for the app. I also wanted to choose rounder, handwritten fonts, to evoke the handwritten signs in a coffee shop. I also wanted the posts to feel like pages out of a notebook, so I made them pop out a little, and have a line under the title.
+				<p>
+					I coded the frontend in React, and the backend in Express and Firebase. I created an API with all of the post data . The post data comes from an HTML form in the REact app. That data is stored in firebase, and hosted on Heroku via an Express server. That data is then called using Axios in the React app and displayed on the website. I authenticated the users with Firebase as well.
+				</p>	
+				<a> See the Code on Github</a>
+			</div>
+			<img class = "myImg" src="https://live.staticflickr.com/65535/49619458488_4a4f530c1f_o.png" alt=" Galles Sketches 1">
+		</section>
+		<section class = "process_part" id = "stage1">
+			<div class = "process_text">
+				<h2 class="stage">Wireframe</h2>
+				<hr/>
+				<p>
+					My main inspiration was instagram. I wanted to make an app that was like instagram, but without the likes or the comments. The brand of this social media site would be something more contemplative, and les concerned with what people think. 
 				</p>	
 			</div>
 			<img class = "myImg" src="https://live.staticflickr.com/65535/49619458488_4a4f530c1f_o.png" alt=" Galles Sketches 1">
 		</section>
 		<section class = "process_part" id = "stage2">
 			<div class = "process_text">
-			<h2 class ="stage">Version 2: Dreamer</h2>
+			<h2 class ="stage">Lo-Fi Prototype</h2>
 				<hr>
-				<p>I eventually pivoted my my idea from a cafe where people can post their ideas, to a dream journal where people can post their dreams. I wanted the dream journal to be warm like the coffee shop. I kept the layout that I made with the coffee shop, I just changed the color and the header typeface. I wanted the color for dreamer to be perriwinkle and soft rater than th ecoffee color of the Cafe. I also wanteds the header to be round and soft, so I went through a few iterations for that too.  </p>
+				<p>
+					I changed the small squares into larger posts since they were too small on mobile. I considered a gradient, but came to the conclusion that a solid background would be better since it was cleaner. In this stage I was mostly attempting to nail down the different assets that I was going to code. 
+				</p>
 			</div>
 			<img class = "myImg" src="https://live.staticflickr.com/65535/49620282527_546e3220c7_o.png" alt="Galles Logo Iterations 2">
 		</section>
 		<section class="process_part" id = "stage3">
 			<div class = "process_text">
-				<h2 class="stage">Version 3: Dreamer</h2>
+				<h2 class="stage">Hi-Fi v1</h2>
 				<hr>
-				<p>In this version I decided to test out having the cards and the input fields all the same light blue color.</p>
+				<p>When I actually began styling my React app I came into a few challenges. I was having trouble figuring out how to add pictures and a chat to my site. Since I had limited time, I decided to pivot a little bit. I changed the post format, since I decided not to add picture, and got rid of the chat feature.</p>
 			</div>
 			<img class = "myImg" src="https://live.staticflickr.com/65535/49620101146_0eff9735e6_o.png" alt="Final Iterations 1">
 		</section>
 		<section class="process_part" id = "stage4">
 			<div class = "process_text">
-				<h2 class="stage">Version 4: Dreamer</h2>
+				<h2 class="stage">HiFi v2</h2>
 				<hr>
-				<p>I decided that the light blue would be good as a way to differentiate the inputs from the posts themselves. I reverted the cards back to yellow, which I felt contrasted nicely with the blue background. It also evokes a notebook, which I though would be fitting for a dream journal site. I also changed the header typeface to one that is softer. </p>
+				<p>
+					Since I was limited to text, I began thinking about journals. This website would essentially have to be a way to only share your thoughts and ideas. I was inspired by dream journals, which are records people keep of the dreams that they keep after they wake up from sleep. I decided to change my idea. I kept the same layout, but I changed out the colors, typeface, and the header. I changed the colors to periwinkle to evoke a dreamy feeling. I considered changing the color of the tposts as a well, but I felt that having them a pale yellow on a blue background differentiated the posts from the inputs. Lastly, I changed the font to Quicksand because it has rounded, soft edges and I wanted my new app to be soft and dreamy. 
+					<br>
+					Codewise, I was able to implement a date marker to the posts. For my original idea it wasn't as important, but since users would be tracking the dreams they had I figured it would be more important. To implement this feature, I had a variable record the date. Then, whenever a post is sent out, I send that days date with the rest of the post data (like the title and the text) to firebase for it to be called when the post is displayed.
+				</p>
 			</div>
 			<img class = "myImg" src="https://live.staticflickr.com/65535/49620101146_0eff9735e6_o.png" alt="Final Iterations 1">
 		</section>
@@ -71,7 +87,9 @@
 			<div class = "process_text">
 				<h2 class="stage">Final Version</h2>
 				<hr>
-				<p>For this final version I changed the header the typeface. I felt that the other one was a bit too juvenille. The one I eventually landed on retained a bit of elegance that I wanted while still retaining some softness. </p>
+				<p>
+					In this final version I changed the header to a softer font. I wanted something rounded, but not juvenille. I also finalized the look of the posts, and the footer.
+				</p>
 			</div>
 			<img class = "myImg" src="https://live.staticflickr.com/65535/49620101146_0eff9735e6_o.png" alt="Final Iterations 1">
 		</section>
