@@ -51,7 +51,8 @@ hr{
 	align-content: flex-start; 
 }
 .myImg{
-	width:46%;
+  object-fit:cover;
+	width:1080px;
   margin:10px -10px;
 }
 p{
