@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dreamer</title>
+	<link href="project.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+	<nav id = "top" class = "websiteNav">
+			<a href="/">HOME</a>
+	</nav>
+		<!--<nav class = "pageNav">
+			<a href = "#stage1">Brainstorming</a>
+			<a href = "#stage2">Refining Sketches</a>
+			<a href = "#stage3">Final Iteration</a>
+		</nav>-->
+  <section class="statement">
+			<h1 class="project_title">DREAMER</h1>
+			<div class="statement_dec">
+				<h2 >Goals</h2>
+				<p class = "statement_txt"> 1. Learn how to connect a backend with a front end</p>
+        		<p class = "statement_txt"> 2. Design for mobile.</p>
+			</div>
+	</section>
+	<main id = "process">
+    <section class = "process_part" id = "stage0">
+			<div class = "process_text">
+				<h2 class="stage">Overview</h2>
+				<hr>
+				<p>For this project I was tasked with making a social media site. I made a site for sharing your dreams called Dreamer. The website was coded in react, and hosted on netlify. The API that I called the post data from was made with an express server, and google firebase. I authenticated users in firebase as well.</p>	
+				<a href="dreamerapp.netlify.app">Visit the Site</a>
+			</div>
+			<iframe src="https://giphy.com/embed/dyQtM4VtInFxv0pkxa" width="46%" height="46%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+		</section>
+		<section class = "process_part" id = "stage1">
+			<div class = "process_text">
+				<h2 class="stage">Code</h2>
+				<hr>
+				<p>
+					I coded the frontend in React, and the backend in Express and Firebase. I created an API with all of the post data . The post data comes from an HTML form in the REact app. That data is stored in firebase, and hosted on Heroku via an Express server. That data is then called using Axios in the React app and displayed on the website. I authenticated the users with Firebase as well.
+				</p>	
+				<a> See the Code on Github</a>
+			</div>
+			<img class = "myImg" src="https://live.staticflickr.com/65535/49932191123_13394e7a53_z.jpg" width="640" height="336" alt="code">
+		</section>
+		<section class = "process_part" id = "stage1">
+			<div class = "process_text">
+				<h2 class="stage">Wireframe</h2>
+				<hr/>
+				<p>
+					My main inspiration was instagram. I wanted to make an app that was like instagram, but without the likes or the comments. The brand of this social media site would be something more contemplative, and les concerned with what people think. 
+				</p>	
+			</div>
+			<img class = "myImg" src="https://live.staticflickr.com/65535/49928009827_b3cc2d25ba_b.jpg" alt="Wireframe 1">
+		</section>
+		<section class = "process_part" id = "stage2">
+			<div class = "process_text">
+			<h2 class ="stage">Lo-Fi Prototype</h2>
+				<hr>
+				<p>
+					I changed the small squares into larger posts since they were too small on mobile. I considered a gradient, but came to the conclusion that a solid background would be better since it was cleaner. In this stage I was mostly attempting to nail down the different assets that I was going to code. 
+				</p>
+			</div>
+			<img class = "myImg" src="https://live.staticflickr.com/65535/49927709481_4499d3fc54_b.jpg" alt="Forest Lo-Fi">
+		</section>
+		<section class="process_part" id = "stage3">
+			<div class = "process_text">
+				<h2 class="stage">Hi-Fi v1</h2>
+				<hr>
+				<p>When I actually began styling my React app I came into a few challenges. I was having trouble figuring out how to add pictures and a chat to my site. Since I had limited time, I decided to pivot a little bit. I changed the post format, since I decided not to add pictures, and got rid of the chat feature.</p>
+			</div>
+			<img class = "myImg" src="https://live.staticflickr.com/65535/49928009707_b9940dc4b4_b.jpg" alt="Forest Hi-Fi">
+		</section>
+		<section class="process_part" id = "stage4">
+			<div class = "process_text">
+				<h2 class="stage">HiFi v2</h2>
+				<hr>
+				<p>
+					Since I was limited to text, I decided to change my idea. I was thinking about journals because my site would now be a way to share thoughts and ideas through text. I was inspired by dream journals, which are records people keep of their dreams after they wake up. I kept the same layout, but I changed the colors, typeface, and header. I also changed the color to periwinkle since I wanted evoke a dreamy feeling. I changed the color of the posts to a pale yellow on a blue background to differentiate posts from inputs. Lastly, I changed the font to Quicksand because it has rounded, soft edges and I wanted my new app to be soft and dreamy. 
+					<br>
+					Codewise, I was able to implement a date marker to the posts. For my original idea it wasn't as important. Since users are tracking dreams, it is more important. To implement this feature, I had a variable record the date. Whenever a post is sent out tthat variable with the date is sent with the rest of the post data (like the title and the text) to firebase for it to be called when the post is displayed.
+				</p>
+			</div>
+			<img class = "myImg" src="https://live.staticflickr.com/65535/49927187218_d8446f9a9b_b.jpg" alt="Dreamer HiFi">
+		</section>
+		<section class="process_part" id = "stage4">
+			<div class = "process_text">
+				<h2 class="stage">Final Version</h2>
+				<hr>
+				<p>
+					In this final version I changed the header to a softer font. I wanted something rounded, but not juvenille. I also finalized the look of the posts, and the footer.
+				</p>
+			</div>
+			<img class = "myImg" src="https://live.staticflickr.com/65535/49927187188_3f290463f3_b.jpg" alt="Dreamer Final">
+		</section>
+    
+	</main>
+</body>
+</html>
