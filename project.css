@@ -51,9 +51,8 @@ hr{
 	border: 1px #968080 dashed;
 }
 .myImg{
-  object-fit:contain;
 	width:46%;
-  margin:10px -10px;
+  margin:10px;
 }
 p{
 	font-family: 'Poppins', sans-serif;
