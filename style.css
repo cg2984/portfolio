@@ -1,5 +1,5 @@
 body{
-	background-color:#f7f7f7;
+	background-color:white;
 }
 header{
 	display:flex;
@@ -14,7 +14,7 @@ ul{
 li{
 	list-style:none;
 	margin:10px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: black;
 	font-size: 20px;
 }
@@ -22,64 +22,80 @@ h1{
 	margin:10px;
 	padding: 10px;
 	font-family: 'Poppins', sans-serif;
+	font-weight:900;
+	font-size: 40px;
+	color:#25cfa4;
 }
 h2{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 35px;
+	color:#25cfa4;
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+	margin:0px;
+	padding:0 10px;
+}
+h2:hover{
+  color:white;
 }
 p{
-	font-family: 'Source Sans Pro', sans-serif;
-	color: black;
+	font-family: 'Poppins', sans-serif;
+	font-weight:300;
+	color: #968080;
 	font-size: 20px;
-	padding:10px;
+	padding:0;
+	margin:0px;
+	padding:0 15px;
+	line-height:5px;
 }
 a{
-	font-family: 'Source Sans Pro', sans-serif;
-	color: black;
+	font-family: 'Poppins', sans-serif;
+  	font-weight:300;
+	color: #25cfa4;
 	text-decoration: none;
 	font-size: 20px;
 	padding: 10px;
 }
-img{
-	display:none;
-	object-fit:cover;
-	width:300px;
-	height:150px;
-}
-img:hover{
-	display:block;
-	object-fit:cover;
-	width:450px;
-	height:150px;
-}
-.headerLink:hover{
-	color: #cc0c0c;
-}
-.mainHome{
-	display:flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+a:hover{
+  color:#ffffff;
+  background-color:#25cfa4;
 }
 
+a h2{
+  margin:0px;
+  padding:0 10px;
+}
 .homeBody{
+	margin:0 auto;
+	width:1080px;
 	display:flex;
 	flex-direction:column;
 }
 
-.project{
-	background-color: white;
-	width: 300px;
-	height:300px;
-	padding:10px;
-	margin:15 auto;
-	outline: 2px solid #353535;
-	outline-offset: 5px;
-	border: 1px dashed black;
+.projectWrapper{
+	margin: 0 auto;
 	display:flex;
-	flex-direction: row;
-	justify-content: center;
-	align-content: center;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.project_pic{
+  object-fit:cover;
+  height:150px;
+  width:300px;
+}
+
+.project_txt{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-content:flex-start;
+}
+
+.project{
+  display:flex;
+  flex-direction:row;
+  margin:30px;
 }
 .main:hover{
 	color: #cc0c0c;
 }
-
