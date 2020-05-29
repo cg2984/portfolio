@@ -20,6 +20,10 @@ main{
   display:flex;
   flex-direction:column;
 }
+#process{
+	display:flex;
+  	flex-direction:column;
+}
 h1{
 	font-family: 'Poppins', sans-serif;
   font-weight:900;
@@ -46,13 +50,6 @@ header{
 hr{
 	border: 1px #968080 dashed;
 }
-.imageGallery{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: flex-start; 
-}
 .myImg{
   object-fit:contain;
 	width:46%;
@@ -78,9 +75,9 @@ p{
 .process_part{
 	display:flex;
 	flex-direction:row;
-  align-items:center;
-  justify-content:space-between;
-  margin:10px 0px;
+	align-items:center;
+	justify-content:space-between;
+	margin:10px 0px;
 }
 
 .process_text{
