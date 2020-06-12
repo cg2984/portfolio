@@ -40,18 +40,6 @@ h2{
 	font-size: 40px;
   color:#25cfa4;
 }
-.highlight{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:space-between;
-  margin:10px;
-}
-
-.hightlight_img{
-  height:50%;
-  width:50%;
-}
 
 header{
 	display:flex;
