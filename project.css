@@ -47,6 +47,11 @@ h2{
   justify-content:space-between;
   margin:10px;
 }
+
+.hightlight img{
+  height:75%;
+  width:75%;
+}
 header{
 	display:flex;
 	flex-direction: row;
