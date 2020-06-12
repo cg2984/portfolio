@@ -40,6 +40,13 @@ h2{
 	font-size: 40px;
   color:#25cfa4;
 }
+.highlight{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+  margin:10px;
+}
 header{
 	display:flex;
 	flex-direction: row;
